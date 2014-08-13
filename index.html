@@ -23,13 +23,10 @@
         }
         
         .thumbnail {
-       float:center;
-       background: rgba(0, 0, 0 ,0.6);
-       padding:10%;
-       margin-bottom: 80px;
-  
-  
-     }
+   float:center;
+  background: rgba(0, 0, 0 ,0.6);
+  padding:10%;
+}
 
 h4 {
   color:White;
@@ -48,6 +45,28 @@ p {
 <div id="header">
 
     <h1 id="brand">KUSANYA CAFE</h1>
+    
+    <div id="signup">
+    
+        <h4>Join Our Email List!</h4>
+   
+        <form class="form-inline" role="form">
+  
+            <div class="form-group">
+        
+                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+                
+                <button type="submit" class="btn btn-default">Sign Up</button>
+            
+            </div>
+ 
+        </form>
+    
+    </div>
+
+</div>
     
 <div id="container">
 
@@ -90,12 +109,14 @@ p {
         <div class="row">
     
             <div class="col-md-6 col-md-offset-3">
+              
+                <div class="thumbnail" align="center">
                 
                  <div align="center">
+                 
+                    <h3 style="color: White"><font size="7">Contact Us</font></h3>
                     
                     <div class="thumbnail" align="center">
-                    
-                    <h3 style="color: White"><font size="7">Contact Us</font></h3>
                     
                <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF­8" method="POST">
 
@@ -104,47 +125,41 @@ p {
                 <input type=hidden name="retURL" value="http://www.kusanyacafe.org">
 
 
-­ <input type="hidden" name="debug" value=1> ­­>
+<!­­ <input type="hidden" name="debug" value=1> ­­>
 
-­ <input type="hidden" name="debugEmail"
+<!­­ <input type="hidden" name="debugEmail"
 
 <!value="aja@comprehensemc.com">
 
-<label for="first_name:" style="color: white"> First Name </label> <input id="first_name:" maxlength="40"
+<label for="first_name" style="color: white">First Name</label> &nbsp;<input id="first_name" maxlength="40"
 
-name="first_name:" &nbsp; size="15" type="text"/> <br>
+name="first_name" size="15" type="text" /><br>
 
-<p></p>
+<label for="last_name" style="color: white">Last Name</label> &nbsp;<input id="last_name" maxlength="40"
 
-<label for="last_name:" style="color: white">Last Name</label><input id="last_name;" maxlength="40"
+name="last_name" size="15" type="text" /><br>
 
-name="last_name:" &nbsp; size="15" type="text" /> <br>
+<label for="email" style="color: white">Email</label> &nbsp;<input id="email" maxlength="40" name="email"
 
-<p></p>
+size="15" type="text" /><br>
 
-<label for="email:" style="color: white">Email</label><input id="email:" maxlength="40" 
-
-name="email" &nbsp; size="15" type="text" /> <br>
-
-<p></p>
-
-<h4>Events: &nbsp; <input id="00NG000000E470S" name="00NG000000E470S"
+<h4>Events: &nbsp;<input id="00NG000000E470S" name="00NG000000E470S"
 
 type="checkbox" value="1" /></h4><br>
 
-<h4>General Café News: &nbsp; <input id="00NG000000E470c" name="00NG000000E470c"
+<h4>General Café News: &nbsp;<input id="00NG000000E470c" name="00NG000000E470c"
 
 type="checkbox" value="1" /></h4><br>
 
-<h4>Volunteering & Giving: &nbsp; <input id="00NG000000E470m"
-
-name="00NG000000E470m" type="checkbox" value="1" /></h4><br>
-
-<h4>Café Deals &amp; Specials: &nbsp; <input id="00NG000000E470w"
+<h4>Volunteering & Giving: &nbsp;<input id="00NG000000E470w"
 
 name="00NG000000E470w" type="checkbox" value="1" /></h4><br>
 
-<h4>Send Message: &nbsp; </h4><textarea id="00NG000000E4711" name="00NG000000E4711"
+<h4>Café Deals &amp; Specials: &nbsp; &nbsp;<input id="00NG000000E470w"
+
+name="00NG000000E470w" type="checkbox" value="1" /></h4><br>
+
+<h4>Send Message:</h4><textarea id="00NG000000E4711" name="00NG000000E4711"
 
 rows="5" type="text" wrap="soft"></textarea><br>
 
@@ -152,12 +167,14 @@ rows="5" type="text" wrap="soft"></textarea><br>
 
 <input type=hidden name="company" value="self">
 
-<input type="submit" name="submit">
+<input type="submit" name="submit" class="btn btn-default btn-lg">
 
 </form>
 
                 </div>
     
+           
+                </div>
             </div>
     
         </div>
